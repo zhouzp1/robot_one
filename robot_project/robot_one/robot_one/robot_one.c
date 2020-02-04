@@ -9,8 +9,8 @@ int main(){
    //sleeping();
    //show_love();
    //file_read();
-   //talk();
-   //system("fortune");
+   talk();
+   system("fortune");
    //walk();
    //system("cat ./brain_history && ls");
    //system("cat ./brain_history && ls");
