@@ -6,13 +6,15 @@
 
 function loop_exe()
 {
+    alias gitpush="git push origin master"
     local ex_count=0
-    CMDLINE=$1
     while true ; do
         #command
         sleep 1
-        echo The command is \"$CMDLINE\"
-        ${CMDLINE}
+        echo The command is \"$*\"
+        echo
+        $*
+        echo
         if [ $? == 0 ] ; then
             echo The command execute OK!
             break;
@@ -23,4 +25,4 @@ function loop_exe()
     done
 }
 
-loop_exe $1
+loop_exe $*
