@@ -4,8 +4,8 @@
 #include <string.h>
 
 int main(){
-   file_creat();
-   file_write();
+   //file_creat();
+   //file_write();
    //sleeping();
    //show_love();
    //file_read();
